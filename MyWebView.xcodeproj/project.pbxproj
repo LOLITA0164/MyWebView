@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76C358B1FF092F00025CDE8 /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = C76C358A1FF092F00025CDE8 /* JSCallOC.html */; };
+		D33D67E41F1DF558001FAC97 /* MyWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D67E31F1DF558001FAC97 /* MyWebViewViewController.m */; };
+		D33D67E81F1DFFB2001FAC97 /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D67E71F1DFFB2001FAC97 /* MyWebView.m */; };
 		D3CBD3661F177E880020FFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD3651F177E880020FFF8 /* main.m */; };
-		D3CBD3691F177E880020FFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD3681F177E880020FFF8 /* AppDelegate.m */; };
-		D3CBD36C1F177E880020FFF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD36B1F177E880020FFF8 /* ViewController.m */; };
-		D3CBD36F1F177E880020FFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CBD36D1F177E880020FFF8 /* Main.storyboard */; };
 		D3CBD3711F177E880020FFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CBD3701F177E880020FFF8 /* Assets.xcassets */; };
 		D3CBD3741F177E880020FFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CBD3721F177E880020FFF8 /* LaunchScreen.storyboard */; };
+		D3CBD37F1F177ED50020FFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD37E1F177ED50020FFF8 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C76C358A1FF092F00025CDE8 /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
+		D33D67E21F1DF558001FAC97 /* MyWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewViewController.h; sourceTree = "<group>"; };
+		D33D67E31F1DF558001FAC97 /* MyWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewViewController.m; sourceTree = "<group>"; };
+		D33D67E61F1DFFB2001FAC97 /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
+		D33D67E71F1DFFB2001FAC97 /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
 		D3CBD3611F177E880020FFF8 /* MyWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CBD3651F177E880020FFF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3CBD3671F177E880020FFF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D3CBD3681F177E880020FFF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3CBD36A1F177E880020FFF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3CBD36B1F177E880020FFF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3CBD36E1F177E880020FFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3CBD3701F177E880020FFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3CBD3731F177E880020FFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3CBD3751F177E880020FFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CBD37D1F177ED50020FFF8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3CBD37E1F177ED50020FFF8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +42,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D33D67E51F1DFF87001FAC97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D33D67E61F1DFFB2001FAC97 /* MyWebView.h */,
+				D33D67E71F1DFFB2001FAC97 /* MyWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D3CBD3581F177E880020FFF8 = {
 			isa = PBXGroup;
 			children = (
+				C76C358A1FF092F00025CDE8 /* JSCallOC.html */,
 				D3CBD3631F177E880020FFF8 /* MyWebView */,
 				D3CBD3621F177E880020FFF8 /* Products */,
 			);
@@ -58,11 +71,9 @@
 		D3CBD3631F177E880020FFF8 /* MyWebView */ = {
 			isa = PBXGroup;
 			children = (
-				D3CBD3671F177E880020FFF8 /* AppDelegate.h */,
-				D3CBD3681F177E880020FFF8 /* AppDelegate.m */,
-				D3CBD36A1F177E880020FFF8 /* ViewController.h */,
-				D3CBD36B1F177E880020FFF8 /* ViewController.m */,
-				D3CBD36D1F177E880020FFF8 /* Main.storyboard */,
+				D33D67E51F1DFF87001FAC97 /* View */,
+				D3CBD37B1F177ED50020FFF8 /* Controller */,
+				D3CBD37C1F177ED50020FFF8 /* Other */,
 				D3CBD3701F177E880020FFF8 /* Assets.xcassets */,
 				D3CBD3721F177E880020FFF8 /* LaunchScreen.storyboard */,
 				D3CBD3751F177E880020FFF8 /* Info.plist */,
@@ -77,6 +88,24 @@
 				D3CBD3651F177E880020FFF8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3CBD37B1F177ED50020FFF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D33D67E21F1DF558001FAC97 /* MyWebViewViewController.h */,
+				D33D67E31F1DF558001FAC97 /* MyWebViewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3CBD37C1F177ED50020FFF8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBD37D1F177ED50020FFF8 /* AppDelegate.h */,
+				D3CBD37E1F177ED50020FFF8 /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3CBD3741F177E880020FFF8 /* LaunchScreen.storyboard in Resources */,
+				C76C358B1FF092F00025CDE8 /* JSCallOC.html in Resources */,
 				D3CBD3711F177E880020FFF8 /* Assets.xcassets in Resources */,
-				D3CBD36F1F177E880020FFF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3CBD36C1F177E880020FFF8 /* ViewController.m in Sources */,
-				D3CBD3691F177E880020FFF8 /* AppDelegate.m in Sources */,
+				D3CBD37F1F177ED50020FFF8 /* AppDelegate.m in Sources */,
 				D3CBD3661F177E880020FFF8 /* main.m in Sources */,
+				D33D67E41F1DF558001FAC97 /* MyWebViewViewController.m in Sources */,
+				D33D67E81F1DFFB2001FAC97 /* MyWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3CBD36D1F177E880020FFF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3CBD36E1F177E880020FFF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3CBD3721F177E880020FFF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DY8NXRF8KD;
 				INFOPLIST_FILE = MyWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LOLITA.MyWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DY8NXRF8KD;
 				INFOPLIST_FILE = MyWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LOLITA.MyWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +336,7 @@
 				D3CBD37A1F177E880020FFF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

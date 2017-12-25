@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyWebViewViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[MyWebViewViewController new]];
+    
+    self.window.rootViewController = nav;
+    
+    
     return YES;
 }
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
